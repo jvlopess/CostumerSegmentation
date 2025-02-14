@@ -33,3 +33,48 @@ Este repositório contém um projeto de segmentação de clientes usando dados d
 Instale usando:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
+```
+## Distribuição dos Clusters
+
+![Distribuição dos Clusters (Income vs TotalMnt) - Eixo X Limitado](Images/image.png)
+
+
+## Análise Detalhada dos Clusters
+
+A seguir, apresentamos uma **interpretação resumida** de cada cluster, baseada em variáveis como **Income**, **TotalMnt**, **idade**, **recência** de compras e outros fatores relevantes:
+
+---
+
+### Cluster 0 (vermelho) – “High Spenders”
+- **Gasto total**: Alto (ex.: média de 1500).  
+- **Renda**: Variada (há clientes de renda média a alta).  
+- **Possível Perfil**: Consumidores que podem priorizar certos produtos e aceitar bem campanhas premium.  
+- **Estratégia de Marketing**: Oferecer produtos de alto valor agregado, além de programas de fidelidade exclusivos e experiências diferenciadas.
+
+---
+
+### Cluster 1 (verde) – “Mid-Level Spenders”
+- **Gasto total**: Médio (ex.: média de 600–800).  
+- **Renda**: Geralmente média, com hábitos de compra equilibrados.  
+- **Possível Perfil**: Público com potencial para **upsell** ou **cross-sell**, pois possuem renda e engajamento medianos.  
+- **Estratégia de Marketing**: Destacar ofertas que equilibrem custo-benefício, incentivando um aumento de ticket médio ou a experimentação de novas categorias de produtos.
+
+---
+
+### Cluster 2 (azul) – “Lower Spend, Medium Income”
+- **Gasto total**: Abaixo do cluster verde, mas não o menor.  
+- **Renda**: Média, porém o gasto efetivo é relativamente baixo (talvez sejam indiferentes a promoções ou comprem itens específicos).  
+- **Possível Perfil**: Compradores mais seletivos ou pouco fiéis, com potencial não explorado.  
+- **Estratégia de Marketing**: Criar promoções segmentadas para aumentar a frequência de compras ou incentivar o consumo em categorias não exploradas.
+
+---
+
+### Cluster 3 (roxo) – “Low Spenders / Baixo Engajamento”
+- **Gasto total**: Baixo, mesmo que a renda possa não ser tão baixa.  
+- **Possível Perfil**: Clientes pouco fidelizados, que realizam compras pontuais ou apenas básicas.  
+- **Estratégia de Marketing**: Investir em campanhas de reativação e descontos iniciais para atrair o cliente a comprar com mais frequência, reduzindo barreiras de entrada.
+
+---
+
+
+
